@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestAmazonSuite" verbose="1" >
+  <parameter name="test.data.homepage" value="https://www.amazon.com"/>
+  <parameter name="test.data.checktext" value="Nikon D3X"/>
+  <test name="TestAmazon" >
+    <classes>
+       <class name="valli.test.browse.amazon.TestAmazon" />
+    </classes>
+  </test>
+</suite>
